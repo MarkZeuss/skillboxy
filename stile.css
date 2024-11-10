@@ -1,0 +1,39 @@
+.page{
+	height: 350px;
+	width: 1250px;
+	border: 1px solid darkred;
+	display: flex;
+	justify-content: space-between;
+	background: black;
+
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.text{
+	color: white;
+}
+
+.text:hover{
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.text1{
+	color: black;
+
+}
+
+.text1 {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.text1:hover{
+  opacity: 0.6;
+  cursor: pointer;
+}
+
